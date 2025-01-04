@@ -183,4 +183,4 @@ Building the html and man page documentation can be done with meson, or by hand.
 1. use the provided Doxyfile with doxygen. The environment variable ``SRCDIR`` must
 be set to root of this repository,
 e.g. ``SRCDIR=path/to/repo doxygen path/to/repo/Doxyfile``.
-4. the documentation is now available in the folder ``path/to/repo//docs``.
+4. the documentation is now available in the folder ``path/to/repo/docs``.
