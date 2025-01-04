@@ -49,10 +49,7 @@ if (doxygen.found() and not should_build_docs.disabled())
   docs = run_target(
     'docs',
     command: [doxygen, doxyfile],
-    env: {
-      'INPUT': meson.project_source_root() / 'include/type_list/type_list.hpp',
-      'STRIP_FROM_PATH': meson.project_source_root() / 'include',
-    },
+    env: {'SRCDIR': meson.project_source_root()},
   )
 endif
 
