@@ -1,6 +1,6 @@
 # type_list
 
-type_list is a header only C++ library for type lists written in C++11.
+type_list is a single header C++ library for type lists for C++11 and above.
 
 It features type trait like meta functions for any type list like type, i.e.
 any type that only takes template type parameters (std::variant, std::tuple,
